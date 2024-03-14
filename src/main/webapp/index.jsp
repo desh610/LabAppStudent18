@@ -7,6 +7,6 @@
 <title>ABC Laboratory</title>
 </head>
 <body>
-
+<h1>Welcome to ABC Lab Appointment System</h1>
 </body>
 </html>
