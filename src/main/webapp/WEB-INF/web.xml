@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+     <display-name>MyLabTest1</display-name>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!-- <servlet>
+        <servlet-name>login</servlet-name>
+        <servlet-class>com.example.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/app/login</url-pattern>
+    </servlet-mapping> -->
+    
+<!--     <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>com.example.controller.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>logout</servlet-name>
+	    <url-pattern>/logout</url-pattern>
+	</servlet-mapping> -->
+	
+		<servlet>
+	    <servlet-name>NavigationServlet</servlet-name>
+	    <servlet-class>com.example.controller.NavigationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>NavigationServlet</servlet-name>
+	    <url-pattern>/app/*</url-pattern>
+	</servlet-mapping>
+	
+<servlet>
+    <servlet-name>DatabaseServlet</servlet-name>
+    <servlet-class>com.example.controller.DatabaseServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DatabaseServlet</servlet-name>
+    <url-pattern>/app/action/*</url-pattern>
+</servlet-mapping>
+
+
+    
+</web-app>
