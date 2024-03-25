@@ -42,5 +42,8 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/opentest4j-1.3.0.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/rs2xml.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/selenium-api-3.0.0-beta3.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/selenium-edge-driver-3.13.0.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/selenium-remote-driver-3.13.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
