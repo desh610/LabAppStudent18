@@ -166,7 +166,7 @@ public class DatabaseServlet extends HttpServlet {
         	            // Redirect to a success page after insertion
         	            response.sendRedirect(request.getContextPath() + "/app/lab_receptionist_dashboard");
 //        	            TODO : uncomment before submit
-//        	            sendEmail(request, response, firstName, lastName, "Patient", generatedId, uniquePassword, email, "You are welcome to the ABC Laborotary System. With this system you can view your appoitments, view test results and download medical reports.");
+        	            sendEmail(request, response, firstName, lastName, "Patient", generatedId, uniquePassword, email, "You are welcome to the ABC Laborotary System. With this system you can view your appoitments, view test results and download medical reports.");
         	        } else {
         	            System.out.println("Failed to retrieve inserted record ID");
         	        }
@@ -230,7 +230,7 @@ public class DatabaseServlet extends HttpServlet {
             	            // Redirect to a success page after insertion
             	            response.sendRedirect(request.getContextPath() + "/app/lab_receptionist_dashboard");
 //            	            TODO : uncomment before submit
-//            	            sendEmail(request, response, firstName, lastName, "Doctor", generatedId, uniquePassword, email, "With your account you can view allocated appointments and add feedback. You are responsible for the assigned patients' directions. Enjoy your dream job with us!");
+            	            sendEmail(request, response, firstName, lastName, "Doctor", generatedId, uniquePassword, email, "With your account you can view allocated appointments and add feedback. You are responsible for the assigned patients' directions. Enjoy your dream job with us!");
             	        } else {
             	            System.out.println("Failed to retrieve inserted record ID");
             	        }
@@ -298,7 +298,7 @@ public class DatabaseServlet extends HttpServlet {
             	            // Redirect to a success page after insertion
             	            response.sendRedirect(request.getContextPath() + "/app/lab_receptionist_dashboard");
 //            	            TODO : uncomment before submit
-//            	            sendEmail(request, response, firstName, lastName, "Lab Technician", generatedId, uniquePassword, email, "With your account you can view allocated appointments and you are responsible to provide valid test results. Enjoy your dream job with us!");
+            	            sendEmail(request, response, firstName, lastName, "Lab Technician", generatedId, uniquePassword, email, "With your account you can view allocated appointments and you are responsible to provide valid test results. Enjoy your dream job with us!");
             	        } else {
             	            System.out.println("Failed to retrieve inserted record ID");
             	        }
@@ -709,11 +709,11 @@ public class DatabaseServlet extends HttpServlet {
     	                
     	                if ("paid".equals(payment)) {
 //    	                	TODO : uncomment before submit
-//    	                	sendEmailForAppointmentsPaid(request, response, firstName, Integer.parseInt(patientUsername), generatedId, yourNumber, email, checkupDate, checkupTime, appointmentType, cost);
+    	                	sendEmailForAppointmentsPaid(request, response, firstName, Integer.parseInt(patientUsername), generatedId, yourNumber, email, checkupDate, checkupTime, appointmentType, cost);
     	                    
     	                } else {
 //    	                	TODO : uncomment before submit
-//    	                	sendEmailForAppointmentsUnpaid(request, response, firstName, Integer.parseInt(patientUsername), generatedId, yourNumber, email, checkupDate, checkupTime);
+    	                	sendEmailForAppointmentsUnpaid(request, response, firstName, Integer.parseInt(patientUsername), generatedId, yourNumber, email, checkupDate, checkupTime);
     	                }
     	                
     	                
